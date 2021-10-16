@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.key{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #999;
+    display: inline-flex;
+    background-color: #eee;
+    margin: 20px;
+    padding:  20px;
+    position: relative;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+}
+
+.key small{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-size: 14px;
+}
