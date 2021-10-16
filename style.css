@@ -30,8 +30,11 @@ body{
 }
 
 .key small{
+    border: 1px solid #2890b1;
+    background: lightblue;
+    margin: 0;
     position: absolute;
-    top: -20px;
+    top: -22px;
     left: 0;
     text-align: center;
     width: 100%;
